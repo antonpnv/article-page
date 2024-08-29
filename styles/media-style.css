@@ -1,0 +1,27 @@
+/* Tablet */
+@media ((min-width: 481px) and (max-width: 899px)) {
+  .container {
+    min-width: 480px;
+    margin: 22px 30px 80px 30px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .container {
+    min-width: 320px;
+    margin: 22px 30px 60px 30px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .question {
+    font-size: 14px;
+  }
+
+  .btn__chat {
+    width: 200px;
+  }
+} 
